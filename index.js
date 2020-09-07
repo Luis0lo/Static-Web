@@ -49,10 +49,3 @@ $(document).ready(function () {
     return false;
   });
 });
-
-// Testimonials slider in About page
-$(".slider").slick({
-  infinite: true,
-  slideToShow: 1,
-  slideToScroll: 1,
-});
