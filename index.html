@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/icontire.png" />
+    <title>Islandscape</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Islandscape</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="tours.html" class="nav-link">Tours</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SHOWCASE SLIDER -->
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-sm-block text-left mb-5">
+                <h1 class="display-3 d-none d-md-block sea">
+                  Surrounded by the sea
+                </h1>
+                <p class="lead">
+                  Madeira’s coastline is 144 km long and boasts spectacular
+                  views.
+                </p>
+                <a href="#" class="btn btn-danger btn-lg d-none d-md-inline"
+                  >Sign Up Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="carousel-caption d-sm-block mb-5">
+                <h1 class="display-3 mb-5 d-none d-md-block text-dark cloud">
+                  Above the Clouds
+                </h1>
+                <p class="lead mt-5">
+                  6 km from the floor of the Atlantic Ocean, reaching, even
+                  surpassing the clouds.
+                </p>
+                <a
+                  href="https://www.flickr.com/photos/madeiraarchipelago/galleries/72157622301236595/"
+                  class="btn btn-primary btn-lg d-none d-md-inline"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-sm-block text-right mb-5">
+                <h1 class="display-3 mb-5 hike">Leave your Footprint</h1>
+                <p class="lead d-none d-md-block">
+                  Wide variety of hiking trails, a true hikers paradise
+                </p>
+                <a
+                  href="https://fullsuitcase.com/best-hikes-madeira/"
+                  class="btn btn-success btn-lg d-none d-md-inline"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!--HOME ICON SECTION  -->
+    <section id="home-icons" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-road fa-3x mb-2"></i>
+            <h3>4x4 Tour</h3>
+            <p>We're specialized in offering the best off-road experience.</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-images fa-3x mb-2"></i>
+            <h3>Picture Perfect</h3>
+            <p>
+              We'll be visiting the most emblematic and beautifull locations.
+              From Beaches to Mountains.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-utensils fa-3x mb-2"></i>
+            <h3>Regional Meals</h3>
+            <p>
+              We'll guide you to the most popular restaurants to enjoy all the
+              amazing traditional food
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOME HEADING SECTION -->
+    <section id="home-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="row m-0">
+          <div class="col">
+            <div class="container pt-5">
+              <h1>Are You Ready To Get Started?</h1>
+              <p class="d-none d-md-block">
+                We have a qualified, professional and friendly guides that will
+                help you explore the authentic rural Madeira while keeping you
+                informed about your surroundings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO SECTION -->
+    <section id="info" class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <h3>Our Tours</h3>
+            <p>
+              We'll take you to places that the average Madeiran or even
+              visitors have never been able to see. Experience the off-road
+              Islandscape tours in a Jeep and discover the beauty of Madeira
+              Island.
+            </p>
+            <p>
+              If you prefer, you can create your own custom tour. Just let us
+              know where would you like to visit, which places interest you the
+              most, what sort of experience you are looking for or just let us
+              use our creativity to create a custom tailored tour just for you
+              and your family.
+            </p>
+            <a href="about.html" class="btn btn-outline-danger btn-lg mb-3"
+              >Learn More</a
+            >
+          </div>
+          <div class="col-md-6 align-self-center">
+            <img src="img/road.jpg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO PLAY -->
+    <section id="video-play">
+      <div class="dark-overlay">
+        <div class="row m-0">
+          <div class="col">
+            <div class="container p-5">
+              <a
+                href="#"
+                class="video"
+                data-video="https://www.youtube.com/embed/6hhaoTNu2a4"
+                data-toggle="modal"
+                data-target="#videoModal"
+              >
+                <i class="fas fa-play fa-3x"></i>
+              </a>
+              <h1>See what to Expect</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h1 class="text-center">Photo Gallery</h1>
+        <p class="text-center">Check out our photos</p>
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <a
+              href="./img/car5.jpg"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="560"
+              data-width="560"
+            >
+              <img src="./img/car5.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="./img/car3.jpg"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="561"
+              data-width="561"
+            >
+              <img src="./img/car3.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="./img/car4.jpg"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="562"
+              data-width="562"
+            >
+              <img src="./img/car4.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <a
+              href="./img/lapas.jpg"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="563"
+              data-width="563"
+            >
+              <img src="./img/lapas.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="./img/bolodocaco.jpg"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="564"
+              data-width="564"
+            >
+              <img src="./img/bolodocaco.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="./img/espetada.jpg"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+              data-height="565"
+              data-width="565"
+            >
+              <img src="./img/espetada.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="text-center p-5 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Sign Up For Our Newsletter</h1>
+            <p>We'll keep you up to date on our new off-road routes.</p>
+            <form class="form-inline justify-content-center">
+              <input
+                type="text"
+                class="form-control mb-2 mr-2"
+                placeholder="Enter Name"
+              />
+              <input
+                type="text"
+                class="form-control mb-2 mr-2"
+                placeholder="Enter Email"
+              />
+              <button class="btn btn-primary mb-2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a
+              id="back-to-top"
+              href="#"
+              class="btn btn-light d-md-none d-sm-none mb-3 back-to-top"
+              role="button"
+              ><i class="fas fa-chevron-up"></i
+            ></a>
+            <p>Copyright &copy; 2008-<span id="year"></span> Islandscape</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- VIDEO MODAL -->
+    <div class="modal fade" id="videoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+            <iframe
+              width="100%"
+              height="350"
+              src=""
+              frameborder="0"
+              allowfullscreen
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
